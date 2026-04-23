@@ -3,63 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Резюме — Вадим Емельяненко</title>
+    <title>Вадим Емельяненко | QA Engineer</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
-        .container { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        h1 { color: #2c3e50; margin-bottom: 5px; }
-        h2 { border-bottom: 2px solid #3498db; padding-bottom: 10px; color: #2c3e50; margin-top: 30px; }
-        .contact-info { margin-bottom: 20px; font-size: 0.9em; color: #666; }
-        .job { margin-bottom: 30px; }
-        .job-header { display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 5px; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 700px; margin: 40px auto; padding: 0 20px; }
+        h1 { color: #2c3e50; }
+        h2 { border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-top: 30px; }
+        .contact { color: #555; margin-bottom: 20px; }
+        .experience-item { margin-bottom: 25px; }
+        .company { font-weight: bold; color: #000; }
+        .date { color: #666; font-size: 0.9em; }
         ul { padding-left: 20px; }
-        .skills { display: flex; flex-wrap: wrap; gap: 10px; }
-        .skill-tag { background: #e1f5fe; padding: 5px 10px; border-radius: 4px; font-size: 0.85em; color: #0277bd; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Вадим Емельяненко</h1>
-        <p><strong>QA-инженер (Middle)</strong></p>
-        <div class="contact-info">
-            Тбилиси | <a href="mailto:getklos@gmail.com">getklos@gmail.com</a> | Telegram: @vad_1
-        </div>
-
-        <h2>О себе</h2>
-        <p>Middle QA Engineer с 4 годами коммерческого опыта тестирования веб-сервисов, SaaS-платформ и микросервисных систем[cite: 5]. Специализируюсь на функциональном, интеграционном, регрессионном и АРІ-тестировании[cite: 6].</p>
-
-        <h2>Опыт работы</h2>
-        
-        <div class="job">
-            <div class="job-header"><span>Платформа аналитики для маркетплейсов (SaaS)</span> <span>Jan 2025 — Настоящее время</span></div>
-            <ul>
-                <li>Сократил время регрессионного тестирования на 25%[cite: 18].</li>
-                <li>Систематизировал базу из 200+ тест-кейсов[cite: 19].</li>
-                <li>Тестирование микросервисной архитектуры, API (Postman/Swagger) и интеграций[cite: 20, 23, 24].</li>
-                <li>Работа с Kafka, PostgreSQL, Kibana, Grafana[cite: 30].</li>
-            </ul>
-        </div>
-
-        <div class="job">
-            <div class="job-header"><span>Fermata — AI-платформа мониторинга здоровья растений</span> <span>May 2022 — Nov 2024</span></div>
-            <ul>
-                <li>Построил процессы тестирования с нуля, внедрил матрицу трассируемости (RTM)[cite: 37, 38].</li>
-                <li>Сократил время регрессионного тестирования на 20%[cite: 39].</li>
-                <li>Тестирование потоков данных IoT устройств и веб-дашбордов[cite: 44, 45].</li>
-            </ul>
-        </div>
-
-        <h2>Навыки</h2>
-        <div class="skills">
-            <span class="skill-tag">REST API</span> <span class="skill-tag">Postman</span> <span class="skill-tag">Swagger</span>
-            <span class="skill-tag">PostgreSQL</span> <span class="skill-tag">SQL</span> <span class="skill-tag">DBeaver</span>
-            <span class="skill-tag">Kafka</span> <span class="skill-tag">Kibana</span> <span class="skill-tag">Grafana</span>
-            <span class="skill-tag">Charles Proxy</span> <span class="skill-tag">Git</span> <span class="skill-tag">Jira</span>
-            <span class="skill-tag">Agile/Scrum</span> <span class="skill-tag">Regression Testing</span>
-        </div>
-
-        <h2>Образование</h2>
-        <p>Бакалавр, Донецкий национальный университет экономики и торговли им. М. Туган-Барановского (2017–2021)[cite: 69, 70].</p>
+    <h1>Вадим Емельяненко</h1>
+    <p><strong>Middle QA Engineer (Manual)</strong></p>
+    <div class="contact">
+        Тбилиси | getklos@gmail.com | <a href="https://www.linkedin.com/in/vadim-emelianenko-b410132b4/">LinkedIn</a>
     </div>
+
+    <h2>О себе</h2>
+    <p>Middle QA Engineer с 4 годами опыта в SaaS, FinTech и AgTech[cite: 5, 35]. Специализируюсь на ручном функциональном, интеграционном и регрессионном тестировании[cite: 6]. Умею выстраивать процессы тестирования с нуля, работать с документацией (RTM, тест-кейсы) и анализировать сложные микросервисные системы[cite: 37, 38].</p>
+
+    <h2>Опыт работы</h2>
+    
+    <div class="experience-item">
+        <div class="company">MpStats — Платформа аналитики для маркетплейсов</div>
+        <div class="date">Jan 2025 — Настоящее время [cite: 13]</div>
+        <ul>
+            <li>Систематизировал базу из 200+ тест-кейсов, сократив время подготовки к релизу на 25%.</li>
+            <li>Провожу функциональное и интеграционное тестирование микросервисов[cite: 20, 23].</li>
+            <li>Анализирую данные в PostgreSQL и логи в Kibana/Grafana[cite: 25, 26].</li>
+            <li>Работаю с REST API через Postman/Swagger[cite: 24].</li>
+        </ul>
+    </div>
+
+    <div class="experience-item">
+        <div class="company">Fermata — AgTech AI-платформа</div>
+        <div class="date">May 2022 — Nov 2024 [cite: 34]</div>
+        <ul>
+            <li>Построил процессы тестирования с нуля и внедрил матрицу трассируемости требований (RTM)[cite: 37, 38].</li>
+            <li>Сократил время регрессионного тестирования на 20%[cite: 39].</li>
+            <li>Тестировал потоки данных IoT-устройств и веб-дашборды[cite: 44, 45].</li>
+        </ul>
+    </div>
+
+    <h2>Навыки</h2>
+    <p>
+        <strong>Виды тестирования:</strong> Функциональное, регрессионное, интеграционное, E2E, Smoke, исследовательское (Exploratory)[cite: 54, 55, 56, 57, 59].<br>
+        <strong>Инструменты:</strong> Postman, Swagger, DBeaver, Charles Proxy, Kibana, Grafana, Jira, Confluence, Git[cite: 30, 52, 61, 62].<br>
+        <strong>Базы данных и API:</strong> PostgreSQL, SQL, REST API[cite: 60].
+    </p>
+
+    <h2>Образование</h2>
+    <p>Донецкий национальный университет экономики и торговли им. М. Туган-Барановского (2017–2021)[cite: 70].</p>
 </body>
 </html>
